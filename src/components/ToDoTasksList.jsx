@@ -7,7 +7,10 @@ function ToDoTasksList({list}) {
   return (
     <div>
         {list?.map((item, index) => (
-          <li key={index}>{item}</li>
+          <div key={index} className="flex px-6 py-2 gap-x-5">
+            <input type="checkbox" name="checked" id="checked" />
+            {item}
+          </div>
         ))}
     </div>
   )
