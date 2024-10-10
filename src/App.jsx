@@ -1,9 +1,10 @@
+import ToDoList from "./pages/ToDoList"
 
 function App() {
 
   return (
     <>
-    <h1>Taha</h1>
+    <ToDoList/>
     </>
   )
 }
