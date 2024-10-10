@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         'afacad': ['"Afacad Flux"', 'sans-serif'],
+        'stalemate': ['"Stalemate"', 'cursive'],
       },
       fontWeight: {
         'afacad-100': 100,
