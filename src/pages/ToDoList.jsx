@@ -23,7 +23,7 @@ const ToDoList = () => {
         <Nav/>
         <div className="flex w-screen justify-center mt-44">
             <div className=" w-96 bg-zinc-500 flex flex-col rounded-3xl px-6">
-                <h2 className="my-3 text-lg font-bold text-gray-100">Whats on your mind</h2>
+                <h2 className="my-3 text-lg text-gray-100 font-afacad-200">Whats on your mind</h2>
                 <div className="flex flex-row w-full rounded-xl border-gray-100 border-2 bg-zinc-950 mb-3">
                     <input type="text" name="todoTask" id="todoTask" value={todoTask}
                         onChange={handleToDoTaskSetter} className=" bg-zinc-950 rounded-l-lg py-4 px-7 grow active:border-hidden"/>
