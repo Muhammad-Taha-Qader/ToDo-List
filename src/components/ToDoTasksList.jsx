@@ -1,7 +1,15 @@
+// import { useState } from "react"
 
-function ToDoTasksList({todoTask}) {
+function ToDoTasksList({list}) {
+    // const [list, setlist] = useState([]);
+    console.log("LIST HERE IS:")
+    console.log(list)
   return (
-    <div>ToDoTasksList ${todoTask}</div>
+    <div>
+        {list?.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+    </div>
   )
 }
 
